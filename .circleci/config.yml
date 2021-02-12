@@ -41,7 +41,7 @@ commands:
               chmod +x testes
               ./testes
           no_output_timeout: 110
-      - testes:
+      - run:
           name: buildddart
           command:
               mv 10 3
